@@ -193,14 +193,14 @@ nav li a {
 
 }
 
-nav li a:hover, nav li a.active {
+nav li a:hover, nav a.active {
   background: #000000;
   border-radius: 3px;
-  color: white;
+  color: white !important;
 }
 
 #drop a {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
   align-items: center;
 }
@@ -533,7 +533,7 @@ footer .container{
 }
 
 .accordion.active, .accordion:hover  {
-  background-color: #444;
+  background-color: rgba(254, 165, 0, .9);
   color: white;
 }
 
@@ -654,7 +654,69 @@ background-color: #0072d6;
 background: linear-gradient(#7a34eb, #f018ba, #ffbc36); 
 }
 
- /************FOTOGRAMMETRIA**************/
+.typeform-widget{
+  margin: auto;
+}
+
+/************HOME**************/
+#hero-home{
+  background: linear-gradient( rgba(255, 255, 255, .6), rgba(0, 0, 0, .1), rgba(0, 0, 0, .8)),
+              url(../images/banco.jpg) no-repeat fixed center / cover;
+}
+
+.corso{
+  padding-top: 100%;
+  position: relative;
+}
+
+.corso .container-fluid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  text-align: center;
+}
+
+#corsi .col-md-2:nth-child(1){
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
+              url(../images/densa2.jpg) no-repeat center / cover;
+}
+
+#corsi .col-md-2:nth-child(2){
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
+              url(../images/DEM.png) no-repeat center / cover;
+}
+
+#corsi .col-md-2:nth-child(3){
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),
+              url(../images/fotogram.png) no-repeat  center / cover;
+}
+
+#corsi .col-md-2:nth-child(4){
+  background: linear-gradient(135deg, rgba(48, 211, 102, 1), rgba(77, 150, 218, 1));
+}
+
+#corsi .col-md-2:nth-child(5){
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
+              url(../images/QGIS.jpeg) no-repeat  center / cover;
+}
+
+#corsi .col-md-2:nth-child(4) .container-fluid{
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
+}
+
+
+/************FOTOGRAMMETRIA**************/
+#hero-fotog2{
+  background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
+              url(../images/DEM.png) no-repeat fixed center / cover;
+}
+
 #hero-fotog{
   background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
               url(../images/fotogram.png) no-repeat fixed center / cover;
@@ -736,6 +798,13 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
   text-align: justify;
 }
 
+/************onbuilding**************/
+#hero-building{
+  background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
+              url(../images/building.jpg) no-repeat fixed center / cover;
+}
+
+
 @media screen and (min-width: 992px) {
 
 /*********** NAVBAR ***********/
@@ -771,7 +840,9 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
   #contacts .card-border{
     width: 100%;
   }
-
+  .typeform-widget{
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 576px){
