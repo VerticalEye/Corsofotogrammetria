@@ -28,20 +28,8 @@
   color: white;
 }
 
-.primary-text{
-  color: #00acaa;
-}
-
-.secondary-text{
-  color: #696969;
-}
-
-.tertiary-text{
-  color: #ff5757;
-}
-
-.fourth-text{
-  color: #a8d5e2;
+.o-text{
+  color: orange;
 }
 
 .text-shadow{
@@ -145,9 +133,14 @@ ul{
   padding-left: 0;
   list-style-position: inside;
 }
- main section:not(:first-child){
+
+main section:not(:first-child){
   padding-top: 100px;
- }
+}
+
+h1{
+  text-shadow: 2px 2px 5px #000000;
+}
 
 
 /*********** HEADER ***********/
@@ -661,7 +654,7 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
 /************HOME**************/
 #hero-home{
   background: linear-gradient( rgba(255, 255, 255, .6), rgba(0, 0, 0, .1), rgba(0, 0, 0, .8)),
-              url(../images/banco.jpg) no-repeat fixed center / cover;
+              url(../images/banco.jpg) no-repeat fixed bottom / cover;
 }
 
 .corso{
@@ -682,31 +675,31 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
   text-align: center;
 }
 
-#corsi .col-md-2:nth-child(1){
+.corsi .col-md-2:nth-child(1){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
               url(../images/zephyr2.jpg) no-repeat center / cover;
 }
 
-#corsi .col-md-2:nth-child(2){
+.corsi .col-md-2:nth-child(2){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
               url(../images/zephyr.jpg) no-repeat center / cover;
 }
 
-#corsi .col-md-2:nth-child(3){
+.corsi .col-md-2:nth-child(3){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),
               url(../images/DEM.PNG) no-repeat  center / cover;
 }
 
-#corsi .col-md-2:nth-child(4){
+.corsi .col-md-2:nth-child(4){
   background: linear-gradient(135deg, rgba(48, 211, 102, 1), rgba(77, 150, 218, 1));
 }
 
-#corsi .col-md-2:nth-child(5){
+.corsi .col-md-2:nth-child(5){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
               url(../images/QGIS.jpeg) no-repeat  center / cover;
 }
 
-#corsi .col-md-2:nth-child(4) .container-fluid{
+.corsi .col-md-2:nth-child(4) .container-fluid{
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
 }
 
