@@ -684,12 +684,12 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
 
 #corsi .col-md-2:nth-child(1){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
-              url(../images/densa2.jpg) no-repeat center / cover;
+              url(../images/densa2.JPG) no-repeat center / cover;
 }
 
 #corsi .col-md-2:nth-child(2){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
-              url(../images/DEM.png) no-repeat center / cover;
+              url(../images/DEM.PNG) no-repeat center / cover;
 }
 
 #corsi .col-md-2:nth-child(3){
