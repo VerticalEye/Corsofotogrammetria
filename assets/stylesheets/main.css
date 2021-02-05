@@ -684,17 +684,17 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
 
 #corsi .col-md-2:nth-child(1){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
-              url(../images/densa2.JPG) no-repeat center / cover;
+              url(../images/zephyr2.jpg) no-repeat center / cover;
 }
 
 #corsi .col-md-2:nth-child(2){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),
-              url(../images/DEM.PNG) no-repeat center / cover;
+              url(../images/zephyr.jpg) no-repeat center / cover;
 }
 
 #corsi .col-md-2:nth-child(3){
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),
-              url(../images/fotogram.png) no-repeat  center / cover;
+              url(../images/DEM.PNG) no-repeat  center / cover;
 }
 
 #corsi .col-md-2:nth-child(4){
@@ -714,13 +714,20 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
 /************FOTOGRAMMETRIA**************/
 #hero-fotog2{
   background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
-              url(../images/DEM.png) no-repeat fixed center / cover;
+              url(../images/zephyr.jpg) no-repeat fixed center / cover;
 }
 
 #hero-fotog{
   background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
-              url(../images/fotogram.png) no-repeat fixed center / cover;
+              url(../images/zephyr3.jpg) no-repeat fixed center / cover;
 }
+
+/************FOTOGRAMMETRIA DRONE**************/
+#hero-fotog3{
+  background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .1), rgba(0, 0, 0, .8)),
+              url(../images/DEM.PNG) no-repeat fixed center / cover;
+}
+
 
 /**** The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect ****/
 .flip-card {
