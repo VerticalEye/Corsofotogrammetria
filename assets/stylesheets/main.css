@@ -654,7 +654,7 @@ background: linear-gradient(#7a34eb, #f018ba, #ffbc36);
 /************HOME**************/
 #hero-home{
   background: linear-gradient( rgba(255, 255, 255, .6), rgba(0, 0, 0, .1), rgba(0, 0, 0, .8)),
-              url(../images/banco.jpg) no-repeat fixed bottom / cover;
+              url(../images/banco.png) no-repeat fixed bottom / cover;
 }
 
 .corso{
